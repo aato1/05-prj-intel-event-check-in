@@ -243,7 +243,8 @@ button .fas {
 }
 
 /* Messages */
-#greeting {
+#greeting,
+#celebrationMessage {
   font-weight: 500;
   font-size: 18px;
   padding: 16px 20px;
@@ -256,6 +257,11 @@ button .fas {
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
+}
+
+.celebration-message {
+  background-color: #ecfdf3;
+  color: #166534;
 }
 
 /* Counter */
@@ -329,6 +335,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  min-height: 150px;
 }
 
 /* Team card colors */
@@ -346,6 +353,19 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.team-list {
+  list-style: none;
+  margin-top: 6px;
+  padding-left: 0;
+  font-size: 14px;
+  color: #475569;
+  text-align: left;
+}
+
+.team-list li {
+  padding: 2px 0;
 }
 
 /* Mobile responsive */
